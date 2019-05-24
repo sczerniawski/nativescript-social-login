@@ -6,8 +6,8 @@
   "typings": "index.d.ts",
   "nativescript": {
     "platforms": {
-      "android": "4.0.0",
-      "ios": "4.0.0"
+      "android": "5.4.0",
+      "ios": "5.4.0"
     }
   },
   "repository": {
@@ -85,14 +85,11 @@
   "homepage": "https://github.com/mkloubert/nativescript-social-login",
   "readmeFilename": "README.md",
   "devDependencies": {
-    "babel-traverse": "6.26.0",
-    "babel-types": "6.26.0",
-    "babylon": "6.18.0",
-    "lazy": "1.0.11",
-    "nativescript-dev-typescript": "~0.7.1",
-    "tns-core-modules": "4.0.0",
-    "tns-platform-declarations": "^4.0.0",
-    "tslint": "~5.9.1",
-    "typescript": "~2.6.2"
+    "release-it": "12.2.0",
+    "rimraf": "^2.6.3",
+    "tns-core-modules": "~5.4.0",
+    "tns-platform-declarations": "~5.4.0",
+    "tslint": "~5.16.0",
+    "typescript": "~3.4.5"
   }
 }
