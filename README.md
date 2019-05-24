@@ -1,9 +1,11 @@
-[![NPM version][npm-image]][npm-url]
-[![NPM downloads][npm-downloads-image]][npm-url]
+[![NPM version][npm-image]][npm-url] (upstream)
 
-[npm-url]: https://npmjs.org/package/nativescript-social-login
-[npm-image]: http://img.shields.io/npm/v/nativescript-social-login.svg
-[npm-downloads-image]: https://img.shields.io/npm/dt/nativescript-social-login.svg?label=npm%20downloads
+[![upstream NPM version][npm-image-upstream]][npm-url] (this fork)
+
+[npm-url]: https://npmjs.org/package/@sczerniawski/nativescript-social-login
+[npm-url-upstream]: https://npmjs.org/package/nativescript-social-login
+[npm-image]: http://img.shields.io/npm/v/@sczerniawski/nativescript-social-login.svg
+[npm-image-upstream]: http://img.shields.io/npm/v/nativescript-social-login.svg
 # NativeScript Social Login
 
 [NativeScript](https://www.nativescript.org/) module for social (token based) log-ins.
