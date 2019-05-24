@@ -1,12 +1,3 @@
-
-android {
-  productFlavors {
-    "nativescript-social-login" {
-      dimension "nativescript-social-login"
-    }
-  }
-}
-
 buildscript {
     repositories {
         jcenter()
