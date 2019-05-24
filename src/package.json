@@ -58,7 +58,8 @@
   ],
   "scripts": {
     "lint": "tslint --projects tsconfig.json --format stylish",
-    "prepare": "rimraf *.js && tsc"
+    "prepare": "rimraf *.js && tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "license": "MIT",
   "bugs": {
