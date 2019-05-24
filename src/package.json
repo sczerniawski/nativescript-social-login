@@ -1,7 +1,7 @@
 {
   "name": "@sczerniawski/nativescript-social-login",
   "description": "NativeScript plugin for social (token based) log-ins.",
-  "version": "4.0.1",
+  "version": "4.1.0",
   "main": "index.js",
   "typings": "index.d.ts",
   "nativescript": {
