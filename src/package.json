@@ -57,26 +57,8 @@
     }
   ],
   "scripts": {
-    "build": "npm i && tsc",
-    "dev": "tsc -w",
-    "next": "npm publish --tag next",
-    "lint": "tslint --project tsconfig.json --config tslint.json",
-    "plugin.link":
-      "npm link && cd ../demo && npm link nativescript-social-login && cd ../src",
-    "demo.android":
-      "npm run preparedemo && cd ../demo && tns platform remove android && tns run android --syncAllFiles",
-    "demo.ios":
-      "npm run preparedemo && cd ../demo && tns run ios --syncAllFiles",
-    "demo.ios.device":
-      "npm run preparedemo && cd ../demo && tns platform remove ios && tns run ios",
-    "development.setup":
-      "npm run setup && npm link && cd ../demo && npm link nativescript-social-login && cd ../src",
-    "preparedemo":
-      "npm run build && cd ../demo && tns plugin remove nativescript-social-login && tns plugin add ../src && tns install",
-    "prepublishOnly": "npm run build",
-    "setup": "npm run build && cd ../demo && npm i",
-    "setupandinstall":
-      "npm i && cd ../demo && npm i && cd ../src && npm run build && cd ../demo && tns plugin add ../src && cd ../src"
+    "lint": "tslint --projects tsconfig.json --format stylish",
+    "prepare": "rimraf *.js && tsc"
   },
   "license": "MIT",
   "bugs": {
