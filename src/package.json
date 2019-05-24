@@ -91,5 +91,16 @@
     "tns-platform-declarations": "~5.4.0",
     "tslint": "~5.16.0",
     "typescript": "~3.4.5"
+  },
+  "release-it": {
+    "git": {
+      "commitArgs": "-S",
+      "tagArgs": "-s",
+      "tagName": "v${version}"
+    },
+    "github": {
+      "release": true,
+      "draft": true
+    }
   }
 }
