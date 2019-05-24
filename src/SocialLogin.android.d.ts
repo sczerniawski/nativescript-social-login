@@ -9,8 +9,8 @@ export declare class SocialLogin extends Social {
     loginWithFacebook(callback: (result: Partial<ILoginResult>) => void): void;
     loginWithGoogle(callback: (result: Partial<ILoginResult>) => void): void;
     loginWithTwitter(callback: (result: Partial<ILoginResult>) => void): void;
-    private initFacebook(result);
-    private initTwitter(result);
-    private initGoogle(result);
+    private initFacebook;
+    private initTwitter;
+    private initGoogle;
     logOut(callback: () => void): void;
 }

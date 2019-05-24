@@ -156,7 +156,7 @@ export declare enum LoginResultType {
     /**
      * Failed
      */
-    Failed = -2,
+    Failed = -2
 }
 export declare const LOGTAG_INIT_ENV = "initEnvironment()";
 export declare const LOGTAG_LOGIN_WITH_FB = "loginWithFacebook()";
