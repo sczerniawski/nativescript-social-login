@@ -77,13 +77,14 @@
   },
   "release-it": {
     "git": {
+      "changelog": "echo -n",
       "commitArgs": "-S",
       "tagArgs": "-s",
-      "tagName": "v${version}"
+      "tagName": "v${version}",
+      "push": true
     },
     "github": {
-      "release": true,
-      "draft": true
+      "release": true
     }
   },
   "files": [
