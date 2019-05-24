@@ -102,5 +102,11 @@
       "release": true,
       "draft": true
     }
-  }
+  },
+  "files": [
+    "/*.d.ts",
+    "!/references.d.ts",
+    "/*.js",
+    "/platforms/"
+  ]
 }
