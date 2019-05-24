@@ -2,10 +2,11 @@
 /demo/node_modules
 /demo/platforms
 /demo/app/*.map
-/demo/.DS_Store
+/demo/app/app.js
 /src/*.map
 /src/*.js
 /src/node_modules
 /src/hooks
 *.log
 .DS_Store
+.*.swp
